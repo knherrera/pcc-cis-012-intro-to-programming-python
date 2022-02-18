@@ -1,0 +1,50 @@
+#In-Class Exercise 1:
+print("Exercise 1: ")
+food = ["rice", "beans"]
+print(food)
+
+#In-Class Exercise 2:
+print("Exercise 2: ")
+food.append("broccoli")
+print(food)
+
+#In-Class Exercise 3:
+print("Exercise 3: ")
+food.extend(["pizza", "bread"])
+print(food)
+
+#In-Class Exercise 4: 
+print("Exercise 4: ")
+print(food[0:2])
+print(food[2])
+
+#In-Class Exercise 5:
+print("Exercise 5: ")
+print(food[4])
+print([len(food)-1])
+print(food.index("broccoli"))
+
+#In-Class Exercise 6:
+print("Exercise 6: ")
+breakfast = "eggs,fruit,orange juice".split(',')
+print(breakfast)
+
+#In-Class Exercise 7:
+print("Exercise 7: ")
+print(len(breakfast))
+
+#In-Class Exercise 8:
+print("Exercise 8: ")
+numlist = [1000]
+while True:
+    value = input("Please enter a number: ")
+    if value == "done":
+        break
+    value = float(value)
+    numlist.append(value)
+average = sum(numlist)/len(numlist)
+print(f"Average: {average}")
+min_value = int(min(numlist))
+print  (f"Minimum value: {min_value}")
+max_value = int(max(numlist))
+print(f"Maximum value: {max_value}")

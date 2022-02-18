@@ -1,0 +1,50 @@
+#In-Class Exercise 1:
+print("Exercise 1: ")
+pokemon = ('picachu', "charmander", "bulbasaur")
+print(pokemon)
+
+#In-Class Exercise 2:
+print("Exercise 2: ")
+print(pokemon[1])
+
+#In-Class Exercise 3:
+print("Exercise 3: ")
+starter1, starter2, starter3, = pokemon
+print(starter1)
+print(starter2)
+print(starter3)
+
+#In-Class Exercise 4: 
+print("Exercise 4: ")
+my_name = tuple('Kevin Herrera')
+print(my_name)
+
+#In-Class Exercise 5:
+print("Exercise 5: ")
+print("i" in my_name)
+
+#In-Class Exercise 6:
+print("Exercise 6: ")
+for x in range(2, 11):
+    print (x)
+
+#In-Class Exercise 7:
+print("Exercise 7: ")
+x = 2
+while x < 11:
+    print(x)
+    x += 1
+    
+
+#In-Class Exercise 8:
+print("Exercise 8: ")
+simple = ("this", "is", "a", "simple", "set")
+for x in simple:
+    print(x)
+
+#In-Class Exercise 9: 
+print("Exercise 9: ")
+simple_set = ("this", 'is', 'a', 'simple', 'set')
+for word in simple_set:
+    for x in range(3):
+        print(word)
